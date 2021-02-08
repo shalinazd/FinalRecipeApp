@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ForgotPassActivity"
+    android:orientation="vertical"
+    android:layout_margin="@dimen/_16dp">
+
+    <TextView
+        android:id="@+id/tv_forgotten_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_forgot_password"
+        android:textSize="@dimen/_34sp"
+        android:textColor="@color/tosca"
+        android:layout_marginTop="@dimen/_100dp"
+        android:fontFamily="@font/poppins_medium"/>
+
+    <TextView
+        android:id="@+id/tv_enter_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_5dp"
+        android:text="@string/txt_enter_email"
+        android:textSize="@dimen/_18sp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/poppins_light"/>
+
+    <TextView
+        android:id="@+id/tv_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/txt_password"
+        android:layout_marginTop="@dimen/_50dp"
+        android:lines="1"
+        android:maxLines="1"
+        android:paddingStart="@dimen/_15dp"
+        android:paddingVertical="@dimen/_10dp"
+        android:fontFamily="@font/poppins_medium"
+        android:textColor="@color/hintcolor"
+        android:textSize="@dimen/_14sp" />
+
+    <Button
+        android:id="@+id/btn_send_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginHorizontal="@dimen/_10dp"
+        android:layout_marginTop="@dimen/_50dp"
+        android:text="@string/txt_send_email"
+        android:fontFamily="@font/poppins_medium"/>
+
+</LinearLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CheckEmailActivity"
+    android:orientation="vertical"
+    android:layout_margin="@dimen/_16dp">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/check"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/_180dp"/>
+
+    <TextView
+        android:id="@+id/check_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_check_your_e_mail"
+        android:layout_marginTop="@dimen/_5dp"
+        android:textSize="@dimen/_24sp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/poppins_medium"
+        android:gravity="center_horizontal"/>
+
+    <TextView
+        android:id="@+id/we_text_check_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="@string/txt_we_have_send_your_reset_password"
+        android:gravity="center_horizontal"
+        android:textSize="@dimen/_14sp"
+        android:fontFamily="@font/poppins_light"/>
+
+
+</LinearLayout>
